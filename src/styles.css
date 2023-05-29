@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    text-decoration:none;
+}
+
+body{
+    
+    font-family: 'Aboreto', cursive;
+}
+
+
+.inicio{
+    display:flex;
+    padding:5px;
+    align-items: center ;
+}
