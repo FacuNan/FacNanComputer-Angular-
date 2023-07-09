@@ -1,46 +1,44 @@
-.sobre__nosotros{
-    height:calc(100vh - 70px);
-    width:100%;
+.sobre__nosotros {
+    height: calc(100vh - 70px);
+    width: 100%;
     background: url("https://images.unsplash.com/photo-1559657693-e816ff3bd9af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80") no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-color:white;
+    color: white;
+    
 
 }
 
-.sobre__nosotros-info{
+.sobre__nosotros-info {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    height:300px;
-    margin: 0px 30px ;
+    height: 300px;
+    width:800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius:10px;
+    border-radius: 10px;
+    margin: 0px 10px;
+    padding:20px;
 }
 
-.sobre__nosotros-info h1{
+.sobre__nosotros-info h1 {
     color: var(--azul);
     margin: 10px;
     font-size: 30px;
 }
 
-.sobre__nosotros-img{
-    width:900px;
-    margin: 0px 30px ;
+.sobre__nosotros-img {
+    width: 900px;
+    margin: 0px 30px;
     display: flex;
     justify-content: space-between;
 }
 
-.luna{
-    width:200px;
-  
-}
-
-#estrella{
-   width:50px; 
+.luna {
+    width: 200px;
 }
