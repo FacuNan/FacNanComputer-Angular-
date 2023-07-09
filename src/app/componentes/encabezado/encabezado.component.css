@@ -21,8 +21,8 @@ body {
 
 .inicio{
     display:flex;
-    padding:5px;
     align-items: center ;
+    margin:5px;
 }
 
 .encabezado {
@@ -31,7 +31,7 @@ body {
     height: 60px;
     display: flex;
     align-items: center;
-    border: solid 1px black;
+    border-bottom: solid 1px black;
 }
 
 .encabezado__lista {

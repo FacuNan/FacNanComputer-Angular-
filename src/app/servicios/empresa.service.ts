@@ -11,7 +11,7 @@ export class EmpresaService {
   constructor(private http: HttpClient) { }
 
 public lista():Observable<Empresa[]>{
-  return this.http.get<Empresa[]>(this.url + "/informacion");
+  return this.http.get<Empresa[]>(this.url + "/home");
 }
 
 public detalles(id: number):Observable<Empresa>{
