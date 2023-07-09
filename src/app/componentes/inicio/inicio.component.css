@@ -4,7 +4,7 @@
   background-image: url("https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
   background-repeat:no-repeat;
   background-size: cover;
- color: aliceblue;
+ color:rgb(12, 69, 125);
   font-weight: bold;
 }
   
@@ -29,10 +29,29 @@
     color: var(--azul)
   }
   
-  .presentacion p {
-    color: var(--plateado);
-    animation: aumenta 3s ease-in-out infinite;
+  .animated-text {
+    animation: fallingText 1s ease-in-out infinite alternate;
+    transform-origin: top;
   }
+  
+  @keyframes fallingText {
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animated-text strong {
+    color: #002e6d;
+  }
+  
   
   @keyframes aumenta {
     0%{
